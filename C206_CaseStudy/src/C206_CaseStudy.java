@@ -8,10 +8,10 @@ public class C206_CaseStudy {
 
 		ArrayList<Bike> bikeList = new ArrayList<Bike>();
 		ArrayList<BikePart> bikePartList = new ArrayList<BikePart>();
-		ArrayList<Customer> customerList = new ArrayList<Customer>();
 		ArrayList<Appointment> appointmentList = new ArrayList<Appointment>();
 		ArrayList<Feedback> feedbackList = new ArrayList<Feedback>();
-
+		// customer arraylist - arjun
+		
 		bikeList.add(new Bike("B1", "Slick Road Bike", 160.00, "Red"));
 		bikeList.add(new Bike("B2", "Giant Mountain Bike", 220.50, "Blue"));
 		bikeList.add(new Bike("B3", "Trek Folding Bike", 190.90, "Yellow"));
@@ -78,42 +78,10 @@ public class C206_CaseStudy {
 				}
 			}
 
-//		      else if (option == 2) { //////////////////// Manage Buyer Profiles (Unverified: Update Buyer Information)
-//		    	Helper.line(80, "=");
-//		    	System.out.println("Manage Customer Profile");
-//				Helper.line(80, "=");
-//		        System.out.println("1. View Buyer Information");
-//		        System.out.println("2. Register Buyer");
-//		        System.out.println("3. Update Buyer Information");
-//		        System.out.println("4. Search Buyer by ID");
-//		        System.out.println("5. Search Buyer by Name");
-//		        System.out.println("6. Search Buyer by Phone No");
-//		        int suboption = Helper.readInt("Enter an option > ");
-//		        
-//		        if (suboption == 1) { //Verified
-//		          viewAllBuyers(customerList);
-//		        }
-//		        else if (suboption == 2) { //Verified
-//		          Buyer newBuyer = inputBuyer();
-//		          addBuyer(customerList, newBuyer);
-//		        }
-//		        else if (suboption == 3) {
-//		          viewAllBuyers(customerList);
-//		          updateBuyer(customerList);
-//		        }
-//		        else if (suboption == 4) { //Verified
-//		          searchBuyerById(customerList);
-//		        }
-//		        else if (suboption == 5) { //Verified
-//		          searchBuyerByName(customerList);
-//		        }
-//		        else if (suboption == 6) { //Verified
-//		          searchBuyerByPhoneNo(customerList);
-//		        }
-//		        else {
-//		          System.out.println("Invalid selection. Returning to main menu...");
-//		        }
-//		      }
+		    else if (option == 2) { // customer menu - arjun
+		    	
+		    }
+		 
 			else if (option == 3) {
 				Helper.line(80, "=");
 				System.out.println("Manage Appointment");
@@ -472,4 +440,4 @@ public class C206_CaseStudy {
 
 }
 
-//
+
